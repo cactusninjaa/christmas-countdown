@@ -102,7 +102,7 @@ setInterval(christmasCountdown, 1000)
 
 /*=============== SHARE LINK ===============*/
 const shareButton = document.querySelectorAll('.share-button')
-const body = encodeURIComponent('Christmas is coming soon: YourShareURL');
+const body = encodeURIComponent('Christmas is coming soon: https://cactusninjaa.github.io/christmas-countdown/');
 const smsLink = 'sms:?&body=' + body;
 
 // Open the default messaging app
